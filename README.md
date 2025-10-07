@@ -1,20 +1,19 @@
-# ASIC-Design-Flow
-ASIC Design Flow Simulation Using Open-Source Tools
+
 # ASIC Design Flow Simulation Using Open-Source Tools
 
 ## Objective
 Simulate a simple 4-bit counter and understand the RTL → GDSII design flow using open-source tools like Yosys, OpenROAD, and KLayout.
 
 ## Design Files
-- `design/counter.sv` → 4-bit counter design
-- `design/testbench.sv` → Testbench for simulation
+- `counter.sv` → 4-bit counter design
+- `testbench.sv` → Testbench for simulation
 
 ## Images
-- `images/waveform.png` → Simulation waveform of the counter
-- `images/flow_diagram.png` → RTL to GDSII flow diagram
+- `waveform.png` → Simulation waveform of the counter
+- `flow_diagram.png` → RTL to GDSII flow diagram
 
 ## Report
-- `report/ASIC_Flow_Report.pdf` → Complete project report with results, images, and explanation
+- `ASIC_Flow_Report.pdf` → Complete project report with results, images, and explanation
 
 ## Simulation Instructions
 1. Open [EDA Playground](https://www.edaplayground.com/)  
@@ -30,22 +29,10 @@ Simulate a simple 4-bit counter and understand the RTL → GDSII design flow usi
 4. **Routing (OpenROAD):** Connects placed cells using metal layers  
 5. **GDSII (KLayout):** Final layout for visualization and manufacturing
 
-## Directory Structure
-
-ASIC-Design-Flow/
-│
-├── design/
-│ ├── counter.sv
-│ └── testbench.sv
-├── images/
-│ ├── waveform.png
-│ └── flow_diagram.png
-└── report/
-└── ASIC_Flow_Report.pdf
-
-
 ## Conclusion
 - Successfully simulated a 4-bit counter in RTL.  
 - Demonstrated the full RTL → GDSII flow.  
 - Learned about floorplanning, placement, routing, and layout verification.  
 - Project satisfies all certification guidelines.
+
+
